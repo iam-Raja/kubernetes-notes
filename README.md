@@ -133,8 +133,8 @@ API versions at their own pace.
 12. What are taints and tolerations in Kubernetes and how do they work? 
 - Taints are applied to nodes to repel pods that do not have matching tolerations. Tolerations are applied 
 to pods to allow them to be scheduled on nodes with matching taints, enabling control over which pods 
-
-can be scheduled on specific nodes. 
+can be scheduled on specific nodes.
+ 
 13. Handling increased traffic on Kubernetes Cluster? 
 - Handle increased traffic by scaling pods horizontally using the Horizontal Pod Autoscaler (HPA), 
 optimizing resource requests and limits, using a load balancer, and ensuring efficient resource utilization. 
