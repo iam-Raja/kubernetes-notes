@@ -37,7 +37,7 @@
 * SecretsTo store confidential information(echo admin|base 64)
 
 ### Services:
-* Pods are Ephemeral in nature, IP address are temporary/keep changing when pods is up and down. we can address this with service.3 services:
+  - Pods are Ephemeral in nature, IP address are temporary/keep changing when pods is up and down. we can address this with service.3 services:
   - Cluster IP : Default service, used for internal communication within the cluster.
   - NodePort : Pods can face the internet, Nodeport will open a port on each node and traffic will be routed to services through random port.
   - Loadbalancer : Forwards the external traffic to the services with load balancing
