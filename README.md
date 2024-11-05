@@ -24,9 +24,9 @@
 * Setted at containers. Env values can be accessed inside containers
 
 ### Resouces :
-* Helps us to allocate/set the resource limits to our resources/objects.
-   - Requests - soft limits
-   - Limit - Hard limits
+- Helps us to allocate/set the resource limits to our resources/objects.
+- Requests - soft limits
+- Limit - Hard limits
 
 ### Configmap :
    - Used to supply configs to our services/resources
