@@ -73,7 +73,6 @@
 ### Ingress controller :
 * The ingress controller adds a layer of abstraction to traffic routing, accepting traffic from outside the kubernetes platform and load balancing it to pods running inside the platform./Ingress controller is an exteranl component to eks cluster through which eks receives traffic. ALB is LB in the ingress controller public hits ALB through the routse53. Based on the ingress resources traffic is routed to the pod through service
 
-### :
-*
+
 
 
