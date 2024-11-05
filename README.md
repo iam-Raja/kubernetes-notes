@@ -48,13 +48,13 @@
   - Deployment : Provides declarative way to update applications such as image, no of pods
   - Daemonset : Ensures that a pod runs on every node(useful for monitoring)
   - Stateful : Each pod will have own volume associated, Pods are created in orderly manner
-  
+
 ### Headless service :
 * A service which will not have cluster IP is called headless service. In a clustering application if a request comes for one pod it search other nodes in cluster through nslookup of headless service
 
 
 ### Volumes :
-* volume are two types;
+ - volume are two types;
   - Static provisiong : volume(EBS&EFS),PV,PVC
   - Dynamic provosionong : SC, PVC
   - PV(Persistent Volume) : Used to represent volume inside kubernetes with a resource called PV. This is equivalent storage inside cluster.
