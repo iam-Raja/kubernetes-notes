@@ -43,7 +43,7 @@
   - Loadbalancer : Forwards the external traffic to the services with load balancing
 
 ### Sets :
-- There are 4 types of sets;
+  - There are 4 types of sets;
   - Replica : Creates replica of pod, ensures desired no of pods are always running
   - Deployment : Provides declarative way to update applications such as image, no of pods
   - Daemonset : Ensures that a pod runs on every node(useful for monitoring)
